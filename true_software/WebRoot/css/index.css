@@ -1,0 +1,358 @@
+@charset "utf-8";	/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0px;
+}
+ 
+body{
+	height:100%;
+	width:100%;
+	font-size:14px;
+	font-family:"微软雅黑";	/*定义文字大小及字号*/
+	}
+header{
+	background:#F6F6F6;
+	width:1200px;
+	height:80px;
+	margin:0 auto;
+	position:relative;
+}
+ 
+header div{
+	float:left;}
+	
+.title{
+	font-family:"华文行楷";
+	font-weight:bold;
+	font-size:68px;
+	text-align:center;
+	letter-spacing:10px;
+	line-height:80px;
+	margin-top:5px;
+	margin-left:27%; 
+	color:#333;
+	}
+	
+.language_change select{
+	margin-left:10px;
+	height:24px;
+	}
+	
+.logo{
+	height:60px;
+	width:60px;
+	margin-top:10px;
+	background:url(../images/logo.jpg) no-repeat center center;
+	background-size:100% 100%;
+	position:absolute;
+	margin-left:36%;}
+	
+a{
+	text-decoration:none;/*无文本装饰效果*/
+	color:#06F;}/*可用取色工具取色*/
+	
+a:hover{
+	color:#F00;}
+	
+.login_resister{
+	float:right;
+	margin-right:10px;
+}/*登录注册框架位置*/
+ 
+.shop_cart{
+	float:right;/*浮动在右边*/
+	margin-right:40px;;/*购物车框架位置*/}
+	
+.shop_cart a{
+	padding-left:22px;
+	background:url(../images/cart.PNG) no-repeat left center;
+	}
+ 
+/*列表样式*/
+li{
+	list-style:none;
+	}
+	
+menu{
+	background:#F6F6F6;
+	height:70px;
+	width:1200px;
+	}
+	
+menu>ul{
+	/*height:70px;*/
+	float:left;
+	margin-left:12%;
+	}
+	
+menu>ul>li{
+	height:35px;
+	width:150px;
+	margin-top:30px;
+	background:#FDEA66;
+	float:left;
+	margin-left:2px;
+	text-align:center;/*文本居中*/
+	line-height:34px;
+	
+	}
+ 
+menu>ul>li>a{
+	display:inline-blockl;/*设置或检索对象是否及如何显示，内联块元素*/
+	height:40px;
+	width:90px;
+	font-weight:bold;
+	font-size:20px;
+	letter-spacing:1em;/*字间距*/
+	color:#333;
+	}
+	
+menu>ul>li>a:hover{
+	color:#F0C;}
+	
+	
+article{
+	width:100%;}
+	
+.topic1{
+	height:300px;
+	width:1200px;
+	background:#F6F6f6;}
+ 
+.search{
+	float:right;
+	margin-right:30px;
+	margin-top:30px;
+	width:230px;
+	height:180px;
+	background:#FDEA66;
+	text-align:center;
+}
+	
+.search>input{
+	margin-top:60px;
+	margin-left:35px;
+	height:30px;
+	width:160px;
+	border:3px solid #06F; /*输入与搜索边框颜色*/
+	float:left;
+	background:#fee; 
+	}
+	
+.search>input:last-child{
+	margin-top:10px;
+	margin-left:65px;
+	height:30px;
+	width:110px;
+	border:3px solid #06F; /*输入与搜索边框颜色*/
+	background:#fee; /*字体背景颜色*/
+	float:left;
+	color:#06F; /*字体颜色*/
+	letter-spacing:0.2em;
+	font:bold 22px/24px "华文行楷";}
+ 
+.topic1 p{	
+	height:30px;
+	width:30px;
+	background:url(../images/xlogo.png) no-repeat center;
+	background-size:100% 100%;
+	margin-left:20px;
+	margin-top:10px;
+	display:inline-block;}
+	
+.topic1 h1{
+	font-family:"华文行楷";
+	font-size:38px;
+	color:#06F;
+	display:inline-block;}
+	
+.topic1 a{
+	display:inline-block;}
+	
+.topic1 ul{
+	margin-left:30px;
+	position:absolute;}
+.topic1 ul li{
+	float:left;
+	margin-right:20px;
+	}
+.topic1 ul li img{
+	height:150px;
+	width:200px;}
+	
+.topic1 ul li img:hover{
+	border:5px solid #F00;}
+.topic1 ul li span{
+	display:block;
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:20px;
+	color:#F00;}
+	
+.topic1 ul li h5{
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:22px;
+	color:#6C0;}
+	
+.topic2{
+	height:300px;
+	width:1200px;
+	background:#F6F6f6;}
+	
+.shaoma{
+	float:right;
+	margin-right:30px;
+	margin-top:30px;
+	width:230px;
+	height:260px;
+	background:#FDEA66;
+	font:bold 22px/24px "华文行楷";
+	text-align:center;
+	display:block;}
+	
+.shaoma h2{
+	font-family:"华文行楷";
+	font-size:45px;
+	color:#06F;
+	margin-top:20px;}
+	
+.shaoma img{
+	display:block;
+	float:right;
+	height:180px;
+	width:180px;
+	background-size:100% 100%;
+	margin-top:1px;
+	margin-right:25px;}
+ 
+.topic2 p{	
+	height:30px;
+	width:30px;
+	background:url(../images/xlogo.png) no-repeat center;
+	background-size:100% 100%;
+	margin-left:20px;
+	margin-top:10px;
+	display:inline-block;}
+	
+.topic2 h1{
+	font-family:"华文行楷";
+	font-size:38px;
+	color:#06F;
+	display:inline-block;}
+	
+.topic2 a{
+	display:inline-block;}
+	
+.topic2 ul{
+	margin-left:30px;
+	position:absolute;}
+.topic2 ul li{
+	float:left;
+	margin-right:20px;
+	}
+.topic2 ul li img{
+	height:150px;
+	width:200px;}
+	
+.topic2 ul li img:hover{
+	border:5px solid #F00;}
+.topic2 ul li span{
+	display:block;
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:20px;
+	color:#F00;}
+	
+.topic2 ul li h5{
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:22px;
+	color:#6C0;}
+	
+.topic3{
+	height:300px;
+	width:1200px;
+	background:#F6F6f6;}
+	
+.tishi{
+	float:right;
+	margin-right:30px;
+	margin-top:30px;
+	width:230px;
+	height:160px;
+	background:#FDEA66;
+	font:bold 22px/24px "华文行楷";
+	text-align:center;
+	color:#06F;}
+ 
+.tishi h2{
+	color:#06F;
+	margin-top:20px;}
+	
+.topic3 p{	
+	height:30px;
+	width:30px;
+	background:url(../images/xlogo.png) no-repeat center;
+	background-size:100% 100%;
+	margin-left:20px;
+	margin-top:10px;
+	display:inline-block;}
+	
+.topic3 h1{
+	font-family:"华文行楷";
+	font-size:38px;
+	color:#06F;
+	display:inline-block;}
+	
+.topic3 a{
+	display:inline-block;}
+	
+.topic3 ul{
+	margin-left:30px;
+	position:absolute;}
+.topic3 ul li{
+	float:left;
+	margin-right:20px;
+	}
+.topic3 ul li img{
+	height:150px;
+	width:200px;}
+	
+.topic3 ul li img:hover{
+	border:5px solid #F00;}
+.topic3 ul li span{
+	display:block;
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:20px;
+	color:#F00;}
+	
+.topic3 ul li h5{
+	text-align:center;
+	font-family:"华文行楷";
+	font-size:22px;
+	color:#6C0;}
+	
+footer{
+	width:1200px;
+	height:60px;
+	/*margin-top:10px;*/
+	text-align:center;
+	background:#F6F6F6;}  /*调整页脚高度宽度及顶部间距把页脚居中*/
+ 
+.footer p:first child a{
+	display:inline-block;
+	width:120px;
+	line-height:20px;
+	text-align:center;
+	border-right:1px solid #CCC;
+	}
+	
+.footer p:first child a:last child{
+	border-right:none;}
+ 
+.footer p{
+	line-height:180px;
+	text-align:center;
+	color:#CCC;}
